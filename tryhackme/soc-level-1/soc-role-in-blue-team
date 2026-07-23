@@ -1,0 +1,46 @@
+#SOC Role in Blue Team
+
+##Overview
+This room covers where a SOC L1 analyst actually sits within a company's wider security structure - the reporting hierarchy
+above SOC. the department that sits alongside it (Red Team GRC), the specialised defensive roles that exist beyond L1/L2 and
+the practical difference between working an internal SOC vs an MSSP. It closes with a scenario challenge matching security
+roles to live incidents based on expertise.
+
+## Security Hierarchy
+
+Cyber security decisions in a larger organisation flow from executives (CEO/CFO) down through a CISO. who owns the security 
+programme as a whole, down to team leads (SOC Manager, Red Team Lead) managing individual departments, down to the technical 
+staff actually doing the work - SOC Analysts, SOC Engineers, GRC Specialists and Penetration Testers. The useful part of this
+isn't the hierarchy itself, it's that Blue Team , Red Team, and GRC (compliance/policy) are three genuinely seperate 
+departments under the same CISO, not one undifferentiated security team. SOC L1 sits specifically inside Blue Team, alongside
+L2 analysts, SOC engineers and a SOC manager.
+
+## Internal SOC vs MSSP
+
+An Internal SOC and an MSSP are functionally different jobs despite the same job title. An internal SOC e.g a bank's own 
+security team) protects one organisation's systems, tends to run on a calmer pace and works deeply with a small well known set
+of tools and environments, as a result of this they'd see far more incidents in a given year as a result. Both sides of that 
+comparison mattered equally to me - the pace difference affects day to day work life balance but the tool breadth difference
+affects what skills you actually build faster. An MSSP role would likely accelerate my technical exposure faster early on
+at the cost of a high pressure daily pace
+
+## Final Challenge - Matching Roles to Incidents
+
+The final task required assigning the correct specialist to seven live incident scenarios (e.g a SIEM alert on a firewall brute
+force, a phishing malware case, a PCS DSS audit requirement, a named threat group actively targeting the company). I matched
+each incident by experise rather than seniority or urgency -  for example, routing the PCI DSS audit requirement to the GRC 
+Auditor rather than a more senior technical role and routing the FIN7 threat group question to the Threat researcher rather than
+SOC L1/L2 analysts since threat group tactics fall under threat intelligence, not general triage. This reinforced the same 
+lesson from the Junior Secure Analyst room: correct routing depends on who has the relevant domain expertise for that specific 
+problem not just whos most experienced overall
+
+## What this Changed About My Career Thinking
+
+Before this room I thought about SOC L1 mostly as an isolated starting job. Seeing it mapped into the wider structure sitting
+under a CISO, alongsie Red Team and GRC as seperate but connected departments made the specialisation taasts beyond L1 feel
+like a visible ladder rather than an abstract 'you can specialise later' statement. Its changed how I'm thinking about skills
+to build deliberately over the next year rather than just finishing the SOC L1 pathway stopping
+
+## Verification
+
+Completed the TrySecureMe final challenge and retrieved the flag: 'THM{trysecureme_is_secured!}'
